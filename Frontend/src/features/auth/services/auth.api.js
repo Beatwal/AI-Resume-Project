@@ -1,6 +1,6 @@
 import axios from "axios"
 const api=axios.create({
-    baseURL:"http://localhost:3000",
+    baseURL:"https://ai-resume-project-dnn4.onrender.com/",
     withCredentials:true
 })
 //username email password
