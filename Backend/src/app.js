@@ -1,3 +1,6 @@
+import dns from "dns";
+
+dns.setServers(["8.8.8.8"]);
 import dottenv from "dotenv/config"
 
 import express from "express"

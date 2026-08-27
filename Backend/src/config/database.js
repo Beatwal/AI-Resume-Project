@@ -5,7 +5,7 @@ const connectingToDb=async()=>{
         console.log("server is successfully connected to database")
         
     } catch (error) {
-        console.log("Something went wrong while try to connect to database")
+        console.log("Something went wrong while try to connect to database",error)
         process.exit(1)
     }
 }
